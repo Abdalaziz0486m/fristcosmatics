@@ -35,23 +35,23 @@ export default function Navbar() {
 
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link" href="#">
+                <Link className="nav-link" to="/contactus">
                   Contact Us
                 </Link>
               </li>
               <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle"
-                  href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
+                  to="/ourproducts"
                 >
                   Our Products
                 </Link>
                 <ul className="dropdown-menu">
                   <li>
-                    <Link className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="/ourproducts">
                       Action
                     </Link>
                   </li>
@@ -73,7 +73,7 @@ export default function Navbar() {
               <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle"
-                  href="#"
+                  to="/ourbisnises"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -82,7 +82,7 @@ export default function Navbar() {
                 </Link>
                 <ul className="dropdown-menu">
                   <li>
-                    <Link className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="/ourbisnises">
                       Action
                     </Link>
                   </li>
@@ -102,12 +102,16 @@ export default function Navbar() {
                 </ul>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="#">
+                <Link className="nav-link" to="/aboutus">
                   About Us
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" href="#">
+                <Link
+                  className="nav-link active"
+                  aria-current="page"
+                  to={"/home"}
+                >
                   Home
                 </Link>
               </li>
