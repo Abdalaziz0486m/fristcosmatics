@@ -15,145 +15,159 @@ export default function Hero() {
   };
 
   return (
-    <Slider {...settings}>
-      <div className="row justify-content-center align-items-center d-flex">
-        <div className="col-7">
-          <div className="d-flex justify-content-center p-5 heroImageSloder">
-            <img src={Image} className="img-fluid" alt="" />
+    <section className="hero mb-5">
+      <Slider {...settings}>
+        <div className="row justify-content-center align-items-center d-flex">
+          <div className="col-7">
+            <div className="d-flex justify-content-center p-5 heroImageSloder">
+              <img src={Image} className="img-fluid" alt="" />
+            </div>
+          </div>
+          <div className="col-5">
+            <div>
+              <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aliquid eos autem asperiores aperiam praesentium provident,
+                earum temporibus doloremque placeat eligendi possimus quisquam a
+                reiciendis voluptatibus adipisci vero, voluptatum quae quis?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                dolore debitis ex.
+              </p>
+              <div>
+                <button className="btn btnPrimary"> Discover More </button>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="col-5">
-          <div>
-            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
-              eos autem asperiores aperiam praesentium provident, earum
-              temporibus doloremque placeat eligendi possimus quisquam a
-              reiciendis voluptatibus adipisci vero, voluptatum quae quis?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-              dolore debitis ex.
-            </p>
-            <div><button className="btn btnPrimaryHero"> Discover More </button></div>
+        <div className="row justify-content-center align-items-center d-flex">
+          <div className="col-7">
+            <div className="d-flex justify-content-center p-5 heroImageSloder">
+              <img src={Image} className="img-fluid" alt="" />
+            </div>
+          </div>
+          <div className="col-5">
+            <div>
+              <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aliquid eos autem asperiores aperiam praesentium provident,
+                earum temporibus doloremque placeat eligendi possimus quisquam a
+                reiciendis voluptatibus adipisci vero, voluptatum quae quis?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                dolore debitis ex.
+              </p>
+              <div>
+                <button className="btn btnPrimary"> Discover More </button>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="row justify-content-center align-items-center d-flex">
-        <div className="col-7">
-          <div className="d-flex justify-content-center p-5 heroImageSloder">
-            <img src={Image} className="img-fluid" alt="" />
+        <div className="row justify-content-center align-items-center d-flex">
+          <div className="col-7">
+            <div className="d-flex justify-content-center p-5 heroImageSloder">
+              <img src={Image} className="img-fluid" alt="" />
+            </div>
+          </div>
+          <div className="col-5">
+            <div>
+              <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aliquid eos autem asperiores aperiam praesentium provident,
+                earum temporibus doloremque placeat eligendi possimus quisquam a
+                reiciendis voluptatibus adipisci vero, voluptatum quae quis?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                dolore debitis ex.
+              </p>
+              <div>
+                <button className="btn btnPrimary"> Discover More </button>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="col-5">
-          <div>
-            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
-              eos autem asperiores aperiam praesentium provident, earum
-              temporibus doloremque placeat eligendi possimus quisquam a
-              reiciendis voluptatibus adipisci vero, voluptatum quae quis?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-              dolore debitis ex.
-            </p>
-            <div></div>
+        <div className="row justify-content-center align-items-center d-flex">
+          <div className="col-7">
+            <div className="d-flex justify-content-center p-5 heroImageSloder">
+              <img src={Image} className="img-fluid" alt="" />
+            </div>
+          </div>
+          <div className="col-5">
+            <div>
+              <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aliquid eos autem asperiores aperiam praesentium provident,
+                earum temporibus doloremque placeat eligendi possimus quisquam a
+                reiciendis voluptatibus adipisci vero, voluptatum quae quis?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                dolore debitis ex.
+              </p>
+              <div>
+                <button className="btn btnPrimary"> Discover More </button>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="row justify-content-center align-items-center d-flex">
-        <div className="col-7">
-          <div className="d-flex justify-content-center p-5 heroImageSloder">
-            <img src={Image} className="img-fluid" alt="" />
+        <div className="row justify-content-center align-items-center d-flex">
+          <div className="col-7">
+            <div className="d-flex justify-content-center p-5 heroImageSloder">
+              <img src={Image} className="img-fluid" alt="" />
+            </div>
+          </div>
+          <div className="col-5">
+            <div>
+              <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aliquid eos autem asperiores aperiam praesentium provident,
+                earum temporibus doloremque placeat eligendi possimus quisquam a
+                reiciendis voluptatibus adipisci vero, voluptatum quae quis?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                dolore debitis ex.
+              </p>
+              <div>
+                <button className="btn btnPrimary"> Discover More </button>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="col-5">
-          <div>
-            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
-              eos autem asperiores aperiam praesentium provident, earum
-              temporibus doloremque placeat eligendi possimus quisquam a
-              reiciendis voluptatibus adipisci vero, voluptatum quae quis?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-              dolore debitis ex.
-            </p>
-            <div></div>
+        <div className="row justify-content-center align-items-center d-flex">
+          <div className="col-7">
+            <div className="d-flex justify-content-center p-5 heroImageSloder">
+              <img src={Image} className="img-fluid" alt="" />
+            </div>
+          </div>
+          <div className="col-5">
+            <div>
+              <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aliquid eos autem asperiores aperiam praesentium provident,
+                earum temporibus doloremque placeat eligendi possimus quisquam a
+                reiciendis voluptatibus adipisci vero, voluptatum quae quis?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                dolore debitis ex.
+              </p>
+              <div>
+                <button className="btn btnPrimary"> Discover More </button>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="row justify-content-center align-items-center d-flex">
-        <div className="col-7">
-          <div className="d-flex justify-content-center p-5 heroImageSloder">
-            <img src={Image} className="img-fluid" alt="" />
-          </div>
-        </div>
-        <div className="col-5">
-          <div>
-            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
-              eos autem asperiores aperiam praesentium provident, earum
-              temporibus doloremque placeat eligendi possimus quisquam a
-              reiciendis voluptatibus adipisci vero, voluptatum quae quis?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-              dolore debitis ex.
-            </p>
-            <div></div>
-          </div>
-        </div>
-      </div>
-      <div className="row justify-content-center align-items-center d-flex">
-        <div className="col-7">
-          <div className="d-flex justify-content-center p-5 heroImageSloder">
-            <img src={Image} className="img-fluid" alt="" />
-          </div>
-        </div>
-        <div className="col-5">
-          <div>
-            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
-              eos autem asperiores aperiam praesentium provident, earum
-              temporibus doloremque placeat eligendi possimus quisquam a
-              reiciendis voluptatibus adipisci vero, voluptatum quae quis?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-              dolore debitis ex.
-            </p>
-            <div></div>
-          </div>
-        </div>
-      </div>
-      <div className="row justify-content-center align-items-center d-flex">
-        <div className="col-7">
-          <div className="d-flex justify-content-center p-5 heroImageSloder">
-            <img src={Image} className="img-fluid" alt="" />
-          </div>
-        </div>
-        <div className="col-5">
-          <div>
-            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
-              eos autem asperiores aperiam praesentium provident, earum
-              temporibus doloremque placeat eligendi possimus quisquam a
-              reiciendis voluptatibus adipisci vero, voluptatum quae quis?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-              dolore debitis ex.
-            </p>
-            <div></div>
-          </div>
-        </div>
-      </div>
-    </Slider>
+      </Slider>
+    </section>
   );
 }
