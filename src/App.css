@@ -24,15 +24,6 @@
     border-bottom: solid 1px var(--text-100);
 }
 
-.skitter-large{
-    width: 100%!important;
-    max-width: 100%!important;
-    height: 500px !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .heroImageSloder{
     position: relative;
 }
@@ -53,6 +44,16 @@
 
 .heroImageSloder img {
     width: 75%;
+}
+
+@media screen and (max-width: 767.98px){
+    .heroImageSloder::after{
+        height: 200px;
+    }
+    .heroImageSloder img {
+    width: 90%;
+}
+    
 }
 
 .btnPrimary{
