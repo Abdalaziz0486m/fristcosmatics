@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Logo from "../../../Images/logo192.png";
 
 export default function Navbar() {
@@ -22,25 +22,28 @@ export default function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            className="collapse navbar-collapse "
+            className="collapse navbar-collapse flex-wrap "
             dir="rtl"
             id="navbarSupportedContent"
           >
-            <form className="d-flex mb-3 me-3" role="search">
+            <form
+              className="d-xxl-flex d-xl-flex d-lg-flex d-md-none mb-3 me-3 w-100"
+              role="search"
+            >
               <button className="btn" type="submit">
                 Search
                 <i className="fa-solid fa-magnifying-glass me-2 fa-xl "></i>
               </button>
             </form>
 
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 w-100">
               <li className="nav-item">
-                <Link className="nav-link" to="/contactus">
+                <NavLink className="nav-link" to="/contactus">
                   Contact Us
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item dropdown">
-                <Link
+                <NavLink
                   className="nav-link dropdown-toggle"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -48,30 +51,30 @@ export default function Navbar() {
                   to="/ourproducts"
                 >
                   Our Products
-                </Link>
+                </NavLink>
                 <ul className="dropdown-menu">
                   <li>
-                    <Link className="dropdown-item" to="/ourproducts">
+                    <NavLink className="dropdown-item" to="/ourproducts">
                       Action
-                    </Link>
+                    </NavLink>
                   </li>
                   <li>
-                    <Link className="dropdown-item" href="#">
+                    <NavLink className="dropdown-item" href="#">
                       Another action
-                    </Link>
+                    </NavLink>
                   </li>
                   <li>
                     <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <Link className="dropdown-item" href="#">
+                    <NavLink className="dropdown-item" href="#">
                       Something else here
-                    </Link>
+                    </NavLink>
                   </li>
                 </ul>
               </li>
               <li className="nav-item dropdown">
-                <Link
+                <NavLink
                   className="nav-link dropdown-toggle"
                   to="/ourbisnises"
                   role="button"
@@ -79,43 +82,53 @@ export default function Navbar() {
                   aria-expanded="false"
                 >
                   Our Business
-                </Link>
+                </NavLink>
                 <ul className="dropdown-menu">
                   <li>
-                    <Link className="dropdown-item" to="/ourbisnises">
+                    <NavLink className="dropdown-item" to="/ourbisnises">
                       Action
-                    </Link>
+                    </NavLink>
                   </li>
                   <li>
-                    <Link className="dropdown-item" href="#">
+                    <NavLink className="dropdown-item" href="#">
                       Another action
-                    </Link>
+                    </NavLink>
                   </li>
                   <li>
                     <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <Link className="dropdown-item" href="#">
+                    <NavLink className="dropdown-item" href="#">
                       Something else here
-                    </Link>
+                    </NavLink>
                   </li>
                 </ul>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/aboutus">
+                <NavLink className="nav-link" to="/aboutus">
                   About Us
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link
-                  className="nav-link active"
+                <NavLink
+                  className="nav-link"
                   aria-current="page"
                   to={"/home"}
                 >
                   Home
-                </Link>
+                </NavLink>
               </li>
             </ul>
+
+            <form
+              className="d-xxl-none d-xl-none d-lg-none d-md-flex mb-3 me-5 w-100"
+              role="search"
+            >
+              <button className="btn" type="submit">
+                Search
+                <i className="fa-solid fa-magnifying-glass me-2 fa-xl "></i>
+              </button>
+            </form>
           </div>
         </div>
       </nav>

@@ -1,9 +1,8 @@
 .logo {
   height: 100px;
 }
-
-.navbar-expand-lg .navbar-collapse {
-  display: block !important;
+.nav-link.active{
+    color: var(--primary-200) !important;
 }
 
 .nav-item{
